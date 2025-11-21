@@ -154,7 +154,7 @@ function SkillSection() {
         </div>
       </div>
 
-      <div className="skills-cards">
+      {/* <div className="skills-cards">
         <h1 className="card-heading">English</h1>
         <div className="english-cards">
           {languageSkills.map((skill, index) => (
@@ -167,7 +167,7 @@ function SkillSection() {
             <SkillCard key={index} {...skill} />
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
